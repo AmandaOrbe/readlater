@@ -1,18 +1,28 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Readlater</title>
+    <title>ArticleReader</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
 
   <body>
-    <%= yield %>
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <%= render 'shared/navbar' %>
+    <%= render 'shared/flashes' %>
+    <%= render 'categories/list' %>
+    <%= render 'articles/form' %>
+
+    <div class="container">
+      <%= yield %>
+    </div>
+
+  <%= javascript_pack_tag "application" %>
   </body>
 </html>
+

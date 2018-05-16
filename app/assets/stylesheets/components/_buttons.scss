@@ -1,0 +1,56 @@
+.btn{
+  height: 34px;
+  padding: 8px 18px;
+  margin: 10px;
+  background-color: white;
+  box-shadow: 0 15px 55px 0 rgba(0,0,0,0.07), 0 2px 4px 0 rgba(0,0,0,0.5);
+  color: black;
+  font-weight: 100;
+  font-size: 14px;
+  border-radius:17px;
+}
+.btn:hover{
+  opacity: 1;
+}
+.green:hover{
+  background-color: $green;
+}
+
+
+.orange:hover{
+  background-color:  $orange;
+ }
+
+.yellow:hover{
+background-color: $yellow;
+}
+
+.blue:hover{
+  background-color: $blue;
+}
+.purple:hover{
+  background-color: $purple;
+}
+
+.red:hover{
+  background-color: $red;
+}
+
+.add-button{
+  height: 50px;
+  width:50px;
+  background-color: $red;
+  border-radius: 100%;
+  margin: 30px auto;
+}
+
+.plus-sign{
+  margin: 8px;
+}
+.btn-sumbit{
+  height: 40px;
+  width: 161px;
+  border-radius: 20px;
+  background-color: #E95262;
+  color: white;
+}

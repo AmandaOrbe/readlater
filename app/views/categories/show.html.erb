@@ -1,0 +1,8 @@
+
+
+<h1>Categories#show</h1>
+<p>Find me in app/views/categories/show.html.erb</p>
+<%= @category.name  %>
+ <h4><%= link_to "update", category_edit_path(@category) %></h4>
+ <h4><%= link_to "delete", category_delete_path(@category),  method: :delete,  data: { confirm: "Are you sure?" } %></h4>
+<%=render "layouts/cards"%>

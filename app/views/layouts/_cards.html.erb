@@ -1,0 +1,34 @@
+<p>hello from cards</p>
+<div class="cards">
+  <div class="row">
+    <% if @articles %>
+      <%@articles.each do |article|%>
+        <div class="col-xs-12 col-sm-6  col-md-3">
+          <div class="card article-card">
+            <div class="article-img-frame">
+              <% if article.image %>
+                <%= image_tag article.image,  class: "image-card" %>
+              <% else %>
+                <%= image_tag "ux-animations1.png",  class: "image-card" %>
+              <% end %>
+            </div>
+            <div class="card-article-text">
+              <h4><%= link_to article.title, article.url %></h4>
+              <% if article.description %>
+              <h5 class= "article-description"><%= link_to article.description.byteslice(0..140), article.url %></h5>
+              <%  end %>
+            </div>
+            <div class="card-footer">
+
+
+                <i class="fa fa-facebook"></i>
+              <%=link_to article_delete_path(article),  method: :delete,  data: { confirm: "Are you sure?" } do%>
+                <i class="fa fa-trash-o"></i>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      <% end %>
+    <% end %>
+  </div>
+</div>

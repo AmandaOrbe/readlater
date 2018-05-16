@@ -1,0 +1,5 @@
+<% if @categories %>
+  <%@categories.each do |category|%>
+    <%= link_to category.name, category_path(category), class: "#{category.color} btn"  %>
+  <% end %>
+<% end %>

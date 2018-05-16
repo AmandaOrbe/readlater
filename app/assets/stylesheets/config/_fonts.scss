@@ -1,9 +1,8 @@
 // Import Google fonts
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Raleway:400,100,300,700,500");
-
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans:300" rel="stylesheet");
 // Define fonts for body and headers
-$body-font: "Open Sans", "Helvetica", "sans-serif";
-$headers-font: "Raleway", "Helvetica", "sans-serif";
+$body-font: "Josefin Sans", "Helvetica", "sans-serif";
+$headers-font: "Josefin Sans", "Helvetica", "sans-serif";
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
@@ -14,3 +13,41 @@ $headers-font: "Raleway", "Helvetica", "sans-serif";
 //        font-url('FontFile.ttf') format('truetype')
 // }
 // $my-font: "Font Name";
+ body{
+  h1 {
+    font-size: 48px;
+    color: black;
+  }
+  h2{
+   font-size: 36px;
+    color: black;
+  }
+  h3{
+   font-size: 24px;
+    color: black;
+  }
+  h4{
+   font-size: 18px;
+    color: black;
+    letter-spacing: -0,5px;
+    line-height: 20px;
+  }
+  h5{
+   font-size: 14px;
+    color: $gray;
+    letter-spacing: -0,5px;
+    line-height: 16px;
+  }
+  p{
+  font-size: 12px;
+    color: black;
+  }
+  a{
+    color: inherit;
+  }
+  a:hover{
+    text-decoration: none;
+    color: inherit;
+    opacity: 0.5;
+  }
+ }

@@ -1,0 +1,53 @@
+
+<p></p>
+
+
+<div class="add-button" data-toggle="modal" data-target="#myModal">
+  <%= image_tag "plus_sign.png",  class: "plus-sign" %>
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3 class="modal-title" id="myModalLabel">ADD A NEW ARTICLE</h3>
+      </div>
+      <div class="modal-container">
+        <div class="modal-body">
+          <% if @splash %>
+            <%= form_for @article do |f| %>
+              <%= f.label :url, "URL" , class: "form-label"  %>
+              <%=f.text_field :url, class: "form-input url"%>
+              <%= f.label :category, "category"  %>
+              <%= f.select(:category_id) do %>
+                <% @splash.each do |c| -%>
+                  <%= content_tag(:option, c.first, value: c.last) %>
+                <% end %>
+              <% end %>
+              <%= f.submit "SUBMIT!", class: "btn btn-sumbit " %>
+            <% end %>
+          <% end %>
+
+          <div class="modal-footer">
+            <div class="add-button" data-toggle="modal" data-target="#categoryModal">
+              <%= image_tag "plus_sign.png",  class: "plus-sign" %>
+            </div>
+            <div class="modal fade" id="categoryModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                  <%= form_for @category do |f| %>
+                    <%= f.label :name, "Category name"  %>
+                    <%=f.text_field :name%>
+                  <%=f.submit%>
+                  <% end %>
+                </div>
+              </div>
+            </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

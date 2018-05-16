@@ -1,0 +1,36 @@
+
+.card{
+  width: 265px;
+  background-color: white;
+  box-shadow: 0 15px 55px 0 rgba(0,0,0,0.07), 0 2px 4px 0 rgba(0,0,0,0.5);
+  margin: 20px auto;
+}
+
+.article-img-frame{
+    height: 165px;
+    width: 265px;
+    margin: 0 auto;
+
+}
+
+.image-card{
+  height: 165px;
+  width: 100%;
+
+}
+
+.article-card{
+
+  height:370px;
+}
+
+.card-article-text{
+  padding:20px;
+  height: 165px;
+  overflow: hidden;
+}
+.card-footer{
+  padding:0 20px;
+  text-align: right;
+}
+

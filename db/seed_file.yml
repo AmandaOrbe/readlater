@@ -1,0 +1,71 @@
+articles:
+    - url: https://uxplanet.org/ux-practices-8-handy-tips-on-cta-button-design-682fdb9c65bc
+    category_slug: ux
+    user_slug: nolan
+    title:  8 Handy Tips on CTA Button Design
+    image: https://cdn-images-1.medium.com/max/2000/1*k8lJd4eUIod3HyNKEYwCCg.jpeg
+    description: |
+      An alien orphan is sent from his dying planet to Earth,
+      where he grows up to become his adoptive home's first and greatest superhero.
+    - url: https://uxplanet.org/ux-practices-8-handy-tips-on-cta-button-design-682fdb9c65bc
+    category_slug: ux
+    user_slug: nolan
+    title:  8 Handy Tips on CTA Button Design
+    image: https://cdn-images-1.medium.com/max/2000/1*k8lJd4eUIod3HyNKEYwCCg.jpeg
+    description: |
+      An alien orphan is sent from his dying planet to Earth,
+      where he grows up to become his adoptive home's first and greatest superhero.
+    - url: https://uxplanet.org/ux-practices-8-handy-tips-on-cta-button-design-682fdb9c65bc
+    category_slug: ux
+    user_slug: nolan
+    title:  8 Handy Tips on CTA Button Design
+    image: https://cdn-images-1.medium.com/max/2000/1*k8lJd4eUIod3HyNKEYwCCg.jpeg
+    description: |
+      An alien orphan is sent from his dying planet to Earth,
+      where he grows up to become his adoptive home's first and greatest superhero.
+    - url: https://uxplanet.org/ux-practices-8-handy-tips-on-cta-button-design-682fdb9c65bc
+    category_slug: ux
+    user_slug: nolan
+    title:  8 Handy Tips on CTA Button Design
+    image: https://cdn-images-1.medium.com/max/2000/1*k8lJd4eUIod3HyNKEYwCCg.jpeg
+    description: |
+      An alien orphan is sent from his dying planet to Earth,
+      where he grows up to become his adoptive home's first and greatest superhero.
+    - url: https://uxplanet.org/ux-practices-8-handy-tips-on-cta-button-design-682fdb9c65bc
+    category_slug: ux
+    user_slug: nolan
+    title:  8 Handy Tips on CTA Button Design
+    image: https://cdn-images-1.medium.com/max/2000/1*k8lJd4eUIod3HyNKEYwCCg.jpeg
+    description: |
+      An alien orphan is sent from his dying planet to Earth,
+      where he grows up to become his adoptive home's first and greatest superhero.
+
+categories:
+  - slug: ux
+    user_slug: nolan
+    name: ux-desing
+    color: red
+  - slug: trump
+    user_slug: nolan
+    name: donald trump
+    color: blue
+  - slug: politics
+    user_slug: donner
+    name: politics
+    color: purple
+  - slug: fashion
+    user_slug: snyder
+    name: fashion
+    color: yellow
+
+users:
+  - slug: nolan
+    email: nolan@gmail.com
+    encrypted_password: Nolan
+  - slug: donner
+    email: donner@gmail.com
+    encrypted_password: Donner
+  - slug: snyder
+    email: snyder@gmail.com
+    encrypted_password: Snyder
+
