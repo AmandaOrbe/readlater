@@ -2,6 +2,7 @@ Rails.application.routes.draw do
  get 'pages/home'
   get 'pages/about'
   devise_for :users
+  controllers: { omniauth_callbacks: 'users/omniauth_callbacks'}
   get 'articles', to: "articles#index"
   get 'articles/new', to: "articles#new"
   post 'articles', to: "articles#create"
